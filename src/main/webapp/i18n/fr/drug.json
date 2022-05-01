@@ -1,0 +1,28 @@
+{
+  "pharmbackendApp": {
+    "drug": {
+      "home": {
+        "title": "Drugs",
+        "refreshListLabel": "Actualiser la liste",
+        "createLabel": "Créer un nouveau Drug",
+        "createOrEditLabel": "Créer ou éditer un Drug",
+        "notFound": "Aucun Drug trouvé"
+      },
+      "created": "Un nouveau Drug a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Drug avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Drug avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Êtes-vous certain de vouloir supprimer le Drug {{ id }} ?"
+      },
+      "detail": {
+        "title": "Drug"
+      },
+      "id": "ID",
+      "name": "Name",
+      "description": "Description",
+      "type": "Type",
+      "price": "Price",
+      "disponibilities": "Disponibilities"
+    }
+  }
+}

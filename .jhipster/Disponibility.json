@@ -1,0 +1,33 @@
+{
+  "applications": "*",
+  "changelogDate": "20220501131733",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "disponibility",
+  "fields": [
+    {
+      "fieldName": "quantity",
+      "fieldType": "Long"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Disponibility",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "pharmacy",
+      "otherEntityRelationshipName": "disponibility",
+      "relationshipName": "pharmacy",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityName": "drug",
+      "otherEntityRelationshipName": "disponibilities",
+      "relationshipName": "drug",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "serviceImpl"
+}

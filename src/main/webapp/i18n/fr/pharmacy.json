@@ -1,0 +1,27 @@
+{
+  "pharmbackendApp": {
+    "pharmacy": {
+      "home": {
+        "title": "Pharmacies",
+        "refreshListLabel": "Actualiser la liste",
+        "createLabel": "Créer un nouveau Pharmacy",
+        "createOrEditLabel": "Créer ou éditer un Pharmacy",
+        "notFound": "Aucun Pharmacy trouvé"
+      },
+      "created": "Un nouveau Pharmacy a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Pharmacy avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Pharmacy avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Êtes-vous certain de vouloir supprimer le Pharmacy {{ id }} ?"
+      },
+      "detail": {
+        "title": "Pharmacy"
+      },
+      "id": "ID",
+      "name": "Name",
+      "location": "Location",
+      "phone": "Phone",
+      "disponibility": "Disponibility"
+    }
+  }
+}

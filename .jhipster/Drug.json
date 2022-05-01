@@ -1,0 +1,39 @@
+{
+  "applications": "*",
+  "changelogDate": "20220501131732",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "drug",
+  "fields": [
+    {
+      "fieldName": "name",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "description",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "type",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "price",
+      "fieldType": "Double"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Drug",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "disponibility",
+      "otherEntityRelationshipName": "drug",
+      "relationshipName": "disponibilities",
+      "relationshipType": "one-to-many"
+    }
+  ],
+  "service": "serviceImpl"
+}

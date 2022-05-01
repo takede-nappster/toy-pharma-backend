@@ -1,0 +1,35 @@
+{
+  "applications": "*",
+  "changelogDate": "20220501131731",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "pharmacy",
+  "fields": [
+    {
+      "fieldName": "name",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "location",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "phone",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Pharmacy",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "disponibility",
+      "otherEntityRelationshipName": "pharmacy",
+      "relationshipName": "disponibility",
+      "relationshipType": "one-to-many"
+    }
+  ],
+  "service": "serviceImpl"
+}
